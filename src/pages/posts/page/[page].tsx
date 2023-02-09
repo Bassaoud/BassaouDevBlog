@@ -12,7 +12,7 @@ import { listTags, TagContent } from "../../../lib/tags";
 type Props = {
   posts: PostContent[];
   tags: TagContent[];
-  page: number;
+  page: number; 
   pagination: {
     current: number;
     pages: number;
